@@ -3,9 +3,14 @@
   "version": "1.0.0",
   "description": "Portfolio of Mine",
   "main": "index.js",
+  "homepage": "https://krisk1712.github.io/myportfolio",
   "scripts": {
-    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive",
+    "deploy": "gh-pages -d dist "
   },
   "author": "Kannan",
-  "license": "My Own LIC"
+  "license": "My Own LIC",
+  "dependencies": {
+    "gh-pages": "^2.1.1"
+  }
 }
